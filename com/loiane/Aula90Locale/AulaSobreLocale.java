@@ -16,6 +16,8 @@ public class AulaSobreLocale {
             System.out.println("-----------------------------------------");
         }
 
+//        Locale.setDefault(nome_do_locale);
+
         Locale br = new Locale("pt", "BR");
         NumberFormat nf = NumberFormat.getCurrencyInstance(br);
         NumberFormatComLocale(nf,500000d);
